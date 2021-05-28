@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>kdl_typekit</name>
+  <version>2.9.1</version>
+  <description>This package contains the KDL RTT bindings</description>
+  <maintainer email="orocos-dev@lists.mech.kuleuven.be">Orocos Developers</maintainer>
+
+  <license>LGPL / BSD</license>
+
+  <url type="website">http://ros.org/wiki/kdl_typekit</url>
+  <!-- <url type="bugtracker"></url> -->
+
+  <author>Steven Bellens</author>
+  <author>Ruben Smits</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- <depend>boost</depend> -->
+  <depend>rtt</depend>
+  <depend>ocl</depend>
+  <depend>orocos_kdl</depend>
+
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
+
+
