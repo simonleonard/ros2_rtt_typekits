@@ -9,7 +9,8 @@ project(kdl_typekit)
 find_package(ament_cmake REQUIRED)
 ament_environment_hooks(env-hooks/kdl_typekit.sh.in)
 
-find_package(rtt_ros2 REQUIRED)
+find_package(OROCOS-RTT REQUIRED)
+include(${OROCOS-RTT_USE_FILE_PATH}/UseOROCOS-RTT.cmake)
 
 find_package(orocos_kdl REQUIRED)
 link_directories(${orocos_kdl_LIBRARY_DIRS})
