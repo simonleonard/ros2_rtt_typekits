@@ -17,7 +17,7 @@
   <buildtool_depend>ament_cmake</buildtool_depend>
 
   <!-- <depend>boost</depend> -->
-  <depend>rtt</depend>
+  <depend>orocos_toolchain</depend>
   <depend>ocl</depend>
   <depend>orocos_kdl</depend>
 
